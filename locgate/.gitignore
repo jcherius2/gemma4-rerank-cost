@@ -1,0 +1,3 @@
+# Copies locales de pages GitHub (diffs, titre+corps de PR = texte des tâches) : jamais versionnées
+.cache/
+__pycache__/

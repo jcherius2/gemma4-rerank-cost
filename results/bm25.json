@@ -1,0 +1,2486 @@
+{
+  "config": {
+    "method": "bm25",
+    "threshold": 0.1,
+    "top_k": 10,
+    "stack_trace": true,
+    "seed": 0,
+    "backend": "fake"
+  },
+  "summary": {
+    "acc1": {
+      "mean": 0.31007751937984496,
+      "lo": 0.2248062015503876,
+      "hi": 0.3953488372093023
+    },
+    "acc5": {
+      "mean": 0.5503875968992248,
+      "lo": 0.4573643410852713,
+      "hi": 0.6356589147286822
+    },
+    "mrr": {
+      "mean": 0.4313138286973226,
+      "lo": 0.36295626887306054,
+      "hi": 0.5044559142935979
+    },
+    "n_tasks": 129,
+    "n_triggered": 0,
+    "n_gold_exists": 128,
+    "seconds_per_task": 0.0,
+    "tokens_in_per_task": 0.0,
+    "tokens_out_per_task": 0.0
+  },
+  "tasks": [
+    {
+      "instance_id": "fastapi_15661",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "scripts/notify_translations.py",
+        "scripts/people.py",
+        "scripts/topic_repos.py",
+        "scripts/contributors.py",
+        "scripts/sponsors.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_15588",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "scripts/notify_translations.py",
+        "scripts/people.py",
+        "scripts/contributors.py",
+        "scripts/topic_repos.py",
+        "scripts/sponsors.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.16666666666666666,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_15589",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "scripts/notify_translations.py",
+        "scripts/people.py",
+        "scripts/topic_repos.py",
+        "scripts/contributors.py",
+        "scripts/sponsors.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.09090909090909091,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_15030",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/background.py",
+        "fastapi/applications.py",
+        "docs_src/background_tasks/tutorial002_py310.py",
+        "docs_src/background_tasks/tutorial002_an_py310.py",
+        "fastapi/openapi/docs.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.16666666666666666,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14962",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/routing.py",
+        "fastapi/applications.py",
+        "docs_src/additional_responses/tutorial002_py310.py",
+        "fastapi/responses.py",
+        "fastapi/_compat/v2.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_15280",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/background.py",
+        "docs_src/background_tasks/tutorial002_py310.py",
+        "docs_src/background_tasks/tutorial002_an_py310.py",
+        "docs_src/advanced_middleware/tutorial001_py310.py",
+        "docs_src/advanced_middleware/tutorial003_py310.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.03225806451612903,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14964",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/responses.py",
+        "docs_src/custom_response/tutorial001_py310.py",
+        "docs_src/custom_response/tutorial001b_py310.py",
+        "docs_src/custom_response/tutorial009c_py310.py",
+        "fastapi/applications.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_15023",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "docs_src/stream_data/tutorial001_py310.py",
+        "docs_src/dependencies/tutorial013_an_py310.py",
+        "docs_src/dependencies/tutorial014_an_py310.py",
+        "docs_src/stream_json_lines/tutorial001_py310.py",
+        "fastapi/openapi/utils.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.1,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14986",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/applications.py",
+        "fastapi/openapi/docs.py",
+        "fastapi/security/oauth2.py",
+        "fastapi/param_functions.py",
+        "fastapi/routing.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14978",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/params.py",
+        "fastapi/responses.py",
+        "fastapi/param_functions.py",
+        "scripts/contributors.py",
+        "docs_src/path_operation_advanced_configuration/tutorial006_py310.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.0625,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "requests_7505",
+      "repo": "psf/requests",
+      "top5": [
+        "src/requests/models.py",
+        "src/requests/utils.py",
+        "src/requests/adapters.py",
+        "src/requests/sessions.py",
+        "src/requests/cookies.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "requests_7502",
+      "repo": "psf/requests",
+      "top5": [
+        "src/requests/models.py",
+        "src/requests/utils.py",
+        "docs/conf.py",
+        "src/requests/sessions.py",
+        "src/requests/auth.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "requests_7433",
+      "repo": "psf/requests",
+      "top5": [
+        "src/requests/models.py",
+        "src/requests/utils.py",
+        "src/requests/sessions.py",
+        "src/requests/adapters.py",
+        "src/requests/structures.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "requests_7427",
+      "repo": "psf/requests",
+      "top5": [
+        "src/requests/utils.py",
+        "src/requests/sessions.py",
+        "src/requests/structures.py",
+        "src/requests/models.py",
+        "src/requests/cookies.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "requests_7315",
+      "repo": "psf/requests",
+      "top5": [
+        "src/requests/utils.py",
+        "src/requests/models.py",
+        "src/requests/adapters.py",
+        "src/requests/sessions.py",
+        "src/requests/cookies.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.3333333333333333,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "requests_7328",
+      "repo": "psf/requests",
+      "top5": [
+        "src/requests/sessions.py",
+        "src/requests/models.py",
+        "src/requests/utils.py",
+        "src/requests/adapters.py",
+        "docs/conf.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "requests_7309",
+      "repo": "psf/requests",
+      "top5": [
+        "src/requests/utils.py",
+        "src/requests/models.py",
+        "src/requests/adapters.py",
+        "src/requests/sessions.py",
+        "docs/conf.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "requests_7205",
+      "repo": "psf/requests",
+      "top5": [
+        "src/requests/utils.py",
+        "src/requests/models.py",
+        "src/requests/sessions.py",
+        "docs/conf.py",
+        "src/requests/auth.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_4070",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/logging.py",
+        "rich/console.py",
+        "rich/__main__.py",
+        "rich/traceback.py",
+        "rich/_timer.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_4077",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "examples/fullscreen.py",
+        "rich/_export_format.py",
+        "examples/file_progress.py",
+        "rich/filesize.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.16666666666666666,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_4079",
+      "repo": "Textualize/rich",
+      "top5": [
+        "examples/fullscreen.py",
+        "rich/markdown.py",
+        "rich/_export_format.py",
+        "benchmarks/snippets.py",
+        "rich/_unicode_data/unicode4-1-0.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.5,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_4076",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "examples/fullscreen.py",
+        "rich/_export_format.py",
+        "rich/syntax.py",
+        "examples/file_progress.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.006993006993006993,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_4075",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "examples/fullscreen.py",
+        "examples/file_progress.py",
+        "rich/_export_format.py",
+        "rich/_wrap.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.14285714285714285,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_4006",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "rich/cells.py",
+        "examples/fullscreen.py",
+        "rich/protocol.py",
+        "rich/_export_format.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.5,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14258",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "scripts/notify_translations.py",
+        "scripts/contributors.py",
+        "scripts/deploy_docs_status.py",
+        "scripts/topic_repos.py",
+        "scripts/sponsors.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.1111111111111111,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14851",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/param_functions.py",
+        "docs_src/events/tutorial002_py39.py",
+        "docs_src/events/tutorial001_py39.py",
+        "fastapi/security/open_id_connect_url.py",
+        "docs_src/websockets/tutorial001_py39.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.07692307692307693,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14873",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/routing.py",
+        "docs_src/custom_request_and_route/tutorial003_py39.py",
+        "docs_src/custom_request_and_route/tutorial003_py310.py",
+        "fastapi/__init__.py",
+        "docs_src/openapi_callbacks/tutorial001_py310.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_13920",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/_compat/v2.py",
+        "fastapi/utils.py",
+        "fastapi/openapi/models.py",
+        "scripts/notify_translations.py",
+        "scripts/deploy_docs_status.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.08333333333333333,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14794",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/dependencies/utils.py",
+        "fastapi/routing.py",
+        "fastapi/applications.py",
+        "docs_src/dependency_testing/tutorial001_an_py310.py",
+        "docs_src/dependency_testing/tutorial001_an_py39.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14786",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/security/http.py",
+        "docs_src/authentication_error_status_code/tutorial001_an_py39.py",
+        "fastapi/security/oauth2.py",
+        "fastapi/security/__init__.py",
+        "docs_src/security/tutorial004_an_py310.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.03571428571428571,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14492",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "docs_src/metadata/tutorial001_1_py39.py",
+        "docs_src/metadata/tutorial001_py39.py",
+        "fastapi/openapi/models.py",
+        "scripts/translation_fixer.py",
+        "fastapi/applications.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14479",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/dependencies/utils.py",
+        "fastapi/openapi/utils.py",
+        "scripts/docs.py",
+        "fastapi/exceptions.py",
+        "fastapi/routing.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14463",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/openapi/utils.py",
+        "fastapi/openapi/models.py",
+        "fastapi/routing.py",
+        "fastapi/applications.py",
+        "fastapi/openapi/constants.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_12942",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/param_functions.py",
+        "fastapi/openapi/models.py",
+        "fastapi/encoders.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/routing.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.14285714285714285,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14099",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "docs_src/custom_response/tutorial008.py",
+        "docs_src/custom_response/tutorial007.py",
+        "fastapi/datastructures.py",
+        "docs_src/dependencies/tutorial010.py",
+        "scripts/notify_translations.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.1,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14609",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/utils.py",
+        "fastapi/_compat/may_v1.py",
+        "fastapi/_compat/v1.py",
+        "fastapi/_compat/main.py",
+        "fastapi/encoders.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14372",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "scripts/translate.py",
+        "fastapi/security/oauth2.py",
+        "fastapi/security/api_key.py",
+        "fastapi/applications.py",
+        "fastapi/routing.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.08333333333333333,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14349",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/openapi/models.py",
+        "fastapi/_compat/v2.py",
+        "fastapi/_compat/v1.py",
+        "fastapi/applications.py",
+        "fastapi/param_functions.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.5,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14512",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/param_functions.py",
+        "scripts/notify_translations.py",
+        "scripts/translate.py",
+        "scripts/people.py",
+        "scripts/deploy_docs_status.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.010309278350515464,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14487",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/routing.py",
+        "fastapi/applications.py",
+        "fastapi/exceptions.py",
+        "fastapi/param_functions.py",
+        "docs_src/path_operation_advanced_configuration/tutorial007.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.04,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_11355",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "scripts/translate.py",
+        "fastapi/applications.py",
+        "docs_src/custom_response/tutorial006.py",
+        "fastapi/routing.py",
+        "scripts/deploy_docs_status.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.034482758620689655,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14485",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "scripts/notify_translations.py",
+        "scripts/deploy_docs_status.py",
+        "fastapi/utils.py",
+        "fastapi/responses.py",
+        "scripts/label_approved.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.02702702702702703,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14482",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/applications.py",
+        "fastapi/routing.py",
+        "fastapi/param_functions.py",
+        "fastapi/utils.py",
+        "scripts/notify_translations.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.011904761904761904,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14306",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/exceptions.py",
+        "fastapi/exception_handlers.py",
+        "fastapi/openapi/utils.py",
+        "docs_src/handling_errors/tutorial006.py",
+        "docs_src/handling_errors/tutorial005.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14458",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/dependencies/models.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/concurrency.py",
+        "fastapi/routing.py",
+        "fastapi/param_functions.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14459",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/security/oauth2.py",
+        "fastapi/dependencies/models.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/security/__init__.py",
+        "fastapi/param_functions.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.5,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14448",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/routing.py",
+        "fastapi/applications.py",
+        "scripts/translate.py",
+        "fastapi/param_functions.py",
+        "fastapi/security/oauth2.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.16666666666666666,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14455",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/security/oauth2.py",
+        "fastapi/security/__init__.py",
+        "fastapi/openapi/models.py",
+        "docs_src/security/tutorial005_py310.py",
+        "docs_src/security/tutorial005.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.06666666666666667,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_9753",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "scripts/notify_translations.py",
+        "fastapi/security/oauth2.py",
+        "scripts/translate.py",
+        "fastapi/routing.py",
+        "fastapi/applications.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.1,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14430",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/applications.py",
+        "fastapi/routing.py",
+        "fastapi/param_functions.py",
+        "fastapi/exceptions.py",
+        "fastapi/security/oauth2.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.05,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_5077",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/dependencies/utils.py",
+        "fastapi/openapi/utils.py",
+        "fastapi/_compat/v1.py",
+        "fastapi/routing.py",
+        "fastapi/utils.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_9555",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/dependencies/utils.py",
+        "docs_src/settings/app02_an_py39/main.py",
+        "docs_src/settings/app02_an/main.py",
+        "docs_src/settings/app03_an/main.py",
+        "docs_src/settings/app03_an_py39/main.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.08333333333333333,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14361",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/_compat/main.py",
+        "fastapi/utils.py",
+        "scripts/notify_translations.py",
+        "fastapi/_compat/v2.py",
+        "scripts/docs.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.25,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_13207",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/openapi/utils.py",
+        "fastapi/_compat/main.py",
+        "docs_src/separate_openapi_schemas/tutorial002_py310.py",
+        "docs_src/separate_openapi_schemas/tutorial002.py",
+        "docs_src/separate_openapi_schemas/tutorial002_py39.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.14285714285714285,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14360",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/param_functions.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/security/api_key.py",
+        "fastapi/routing.py",
+        "fastapi/encoders.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.5,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14356",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/param_functions.py",
+        "fastapi/security/oauth2.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/routing.py",
+        "fastapi/applications.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.3333333333333333,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_5624",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/dependencies/models.py",
+        "docs_src/security/tutorial005_py310.py",
+        "docs_src/security/tutorial005.py",
+        "docs_src/security/tutorial005_an_py310.py",
+        "docs_src/security/tutorial005_py39.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.1111111111111111,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14419",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/security/oauth2.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/dependencies/models.py",
+        "fastapi/param_functions.py",
+        "docs_src/security/tutorial005_py310.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.5,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14301",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/routing.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/dependencies/models.py",
+        "docs_src/dependencies/tutorial008e.py",
+        "docs_src/dependencies/tutorial008e_an.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.5,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14262",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/security/oauth2.py",
+        "fastapi/routing.py",
+        "fastapi/applications.py",
+        "fastapi/middleware/asyncexitstack.py",
+        "fastapi/param_functions.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.5,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14266",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/applications.py",
+        "fastapi/routing.py",
+        "fastapi/openapi/models.py",
+        "fastapi/param_functions.py",
+        "fastapi/security/open_id_connect_url.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.020833333333333332,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14246",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "scripts/people.py",
+        "scripts/deploy_docs_status.py",
+        "scripts/notify_translations.py",
+        "fastapi/applications.py",
+        "fastapi/routing.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.03125,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14186",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/utils.py",
+        "scripts/translate.py",
+        "fastapi/applications.py",
+        "fastapi/encoders.py",
+        "scripts/contributors.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_9425",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/_compat.py",
+        "fastapi/routing.py",
+        "fastapi/utils.py",
+        "fastapi/dependencies/utils.py",
+        "fastapi/openapi/utils.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.25,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_13713",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/applications.py",
+        "fastapi/security/api_key.py",
+        "fastapi/param_functions.py",
+        "fastapi/openapi/models.py",
+        "fastapi/routing.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14077",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/exception_handlers.py",
+        "docs_src/handling_errors/tutorial005.py",
+        "fastapi/openapi/utils.py",
+        "docs_src/path_operation_advanced_configuration/tutorial007_pv1.py",
+        "docs_src/path_operation_advanced_configuration/tutorial007.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3718",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/console.py",
+        "rich/tree.py",
+        "benchmarks/snippets.py",
+        "rich/syntax.py",
+        "rich/__main__.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.0625,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3934",
+      "repo": "Textualize/rich",
+      "top5": [
+        "examples/fullscreen.py",
+        "benchmarks/snippets.py",
+        "rich/_export_format.py",
+        "examples/file_progress.py",
+        "examples/downloader.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.047619047619047616,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3953",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "examples/fullscreen.py",
+        "rich/_export_format.py",
+        "rich/filesize.py",
+        "examples/file_progress.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.0070921985815602835,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3944",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "examples/fullscreen.py",
+        "rich/_export_format.py",
+        "examples/file_progress.py",
+        "rich/box.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.007142857142857143,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3942",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/default_styles.py",
+        "rich/markdown.py",
+        "rich/tree.py",
+        "rich/__main__.py",
+        "rich/box.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3938",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "rich/syntax.py",
+        "examples/fullscreen.py",
+        "rich/_export_format.py",
+        "rich/console.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.2,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3882",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/prompt.py",
+        "rich/console.py",
+        "benchmarks/snippets.py",
+        "rich/syntax.py",
+        "rich/progress.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3894",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/console.py",
+        "rich/_inspect.py",
+        "rich/style.py",
+        "rich/segment.py",
+        "rich/__init__.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.5,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3935",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "examples/fullscreen.py",
+        "rich/_export_format.py",
+        "rich/__main__.py",
+        "examples/file_progress.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.04,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3905",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/console.py",
+        "rich/progress.py",
+        "rich/segment.py",
+        "rich/live.py",
+        "rich/syntax.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.5,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3930",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/console.py",
+        "rich/cells.py",
+        "rich/__main__.py",
+        "rich/progress.py",
+        "rich/filesize.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.5,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "httpx_3672",
+      "repo": "encode/httpx",
+      "top5": [
+        "src/httpx/_parsers.py",
+        "src/ahttpx/_parsers.py",
+        "src/httpx/_server.py",
+        "src/ahttpx/_server.py",
+        "src/httpx/_pool.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14791",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/openapi/utils.py",
+        "fastapi/_compat/v2.py",
+        "docs_src/path_operation_advanced_configuration/tutorial007_py39.py",
+        "fastapi/routing.py",
+        "docs_src/path_operation_advanced_configuration/tutorial007_pv1_py39.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_15800",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "scripts/notify_translations.py",
+        "scripts/people.py",
+        "scripts/topic_repos.py",
+        "scripts/contributors.py",
+        "scripts/sponsors.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.09090909090909091,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_15785",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "scripts/notify_translations.py",
+        "scripts/people.py",
+        "scripts/contributors.py",
+        "scripts/topic_repos.py",
+        "scripts/translate.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.125,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14371",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/param_functions.py",
+        "scripts/notify_translations.py",
+        "fastapi/applications.py",
+        "scripts/people.py",
+        "fastapi/routing.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.1111111111111111,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14605",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/temp_pydantic_v1_params.py",
+        "fastapi/params.py",
+        "fastapi/applications.py",
+        "fastapi/routing.py",
+        "docs_src/custom_response/tutorial006c_py39.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_15763",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "scripts/notify_translations.py",
+        "scripts/people.py",
+        "scripts/topic_repos.py",
+        "scripts/contributors.py",
+        "scripts/sponsors.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.1111111111111111,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14583",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/temp_pydantic_v1_params.py",
+        "fastapi/params.py",
+        "fastapi/utils.py",
+        "fastapi/_compat/v2.py",
+        "fastapi/applications.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.1,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_15745",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/routing.py",
+        "fastapi/applications.py",
+        "docs_src/custom_request_and_route/tutorial003_py310.py",
+        "docs_src/bigger_applications/app_an_py310/routers/items.py",
+        "docs_src/openapi_callbacks/tutorial001_py310.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14297",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "docs_src/request_files/tutorial003.py",
+        "docs_src/request_files/tutorial003_an.py",
+        "docs_src/request_files/tutorial003_an_py39.py",
+        "docs_src/request_files/tutorial003_py39.py",
+        "docs_src/request_files/tutorial002.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.022727272727272728,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14303",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/dependencies/utils.py",
+        "fastapi/param_functions.py",
+        "fastapi/security/oauth2.py",
+        "fastapi/routing.py",
+        "fastapi/openapi/utils.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_13537",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/dependencies/utils.py",
+        "fastapi/param_functions.py",
+        "fastapi/routing.py",
+        "fastapi/applications.py",
+        "fastapi/_compat/v2.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14953",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/openapi/models.py",
+        "fastapi/param_functions.py",
+        "fastapi/params.py",
+        "fastapi/datastructures.py",
+        "fastapi/applications.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.25,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_13786",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/security/http.py",
+        "fastapi/security/oauth2.py",
+        "fastapi/applications.py",
+        "fastapi/routing.py",
+        "fastapi/security/__init__.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_14616",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/datastructures.py",
+        "fastapi/_compat/v2.py",
+        "fastapi/_compat/shared.py",
+        "fastapi/applications.py",
+        "fastapi/dependencies/utils.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.2,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "fastapi_11194",
+      "repo": "fastapi/fastapi",
+      "top5": [
+        "fastapi/param_functions.py",
+        "fastapi/security/oauth2.py",
+        "fastapi/security/api_key.py",
+        "fastapi/openapi/utils.py",
+        "fastapi/routing.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.0625,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "requests_6757",
+      "repo": "psf/requests",
+      "top5": [
+        "src/requests/utils.py",
+        "src/requests/models.py",
+        "src/requests/sessions.py",
+        "src/requests/adapters.py",
+        "src/requests/exceptions.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "requests_6629",
+      "repo": "psf/requests",
+      "top5": [
+        "src/requests/models.py",
+        "src/requests/exceptions.py",
+        "src/requests/sessions.py",
+        "src/requests/adapters.py",
+        "src/requests/utils.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.5,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "requests_6644",
+      "repo": "psf/requests",
+      "top5": [
+        "src/requests/utils.py",
+        "src/requests/adapters.py",
+        "src/requests/models.py",
+        "src/requests/sessions.py",
+        "docs/conf.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.5,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "requests_6589",
+      "repo": "psf/requests",
+      "top5": [
+        "src/requests/utils.py",
+        "src/requests/models.py",
+        "src/requests/sessions.py",
+        "docs/conf.py",
+        "src/requests/auth.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "requests_6592",
+      "repo": "psf/requests",
+      "top5": [
+        "src/requests/status_codes.py",
+        "src/requests/sessions.py",
+        "src/requests/models.py",
+        "src/requests/utils.py",
+        "src/requests/cookies.py"
+      ],
+      "graph": true,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3180",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/text.py",
+        "rich/console.py",
+        "rich/syntax.py",
+        "rich/segment.py",
+        "rich/traceback.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.037037037037037035,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3486",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/traceback.py",
+        "rich/logging.py",
+        "rich/default_styles.py",
+        "rich/diagnose.py",
+        "examples/suppress.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3777",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/console.py",
+        "rich/diagnose.py",
+        "rich/progress.py",
+        "rich/live.py",
+        "examples/dynamic_progress.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3468",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/__main__.py",
+        "examples/fullscreen.py",
+        "benchmarks/snippets.py",
+        "rich/_spinners.py",
+        "examples/downloader.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.038461538461538464,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3782",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/__main__.py",
+        "examples/fullscreen.py",
+        "benchmarks/snippets.py",
+        "rich/_export_format.py",
+        "rich/syntax.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.2,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3772",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "rich/__main__.py",
+        "examples/fullscreen.py",
+        "rich/_export_format.py",
+        "rich/filesize.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.045454545454545456,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3296",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/__main__.py",
+        "benchmarks/snippets.py",
+        "examples/fullscreen.py",
+        "rich/syntax.py",
+        "rich/console.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.25,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3675",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "rich/__main__.py",
+        "rich/_export_format.py",
+        "examples/fullscreen.py",
+        "rich/filesize.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.16666666666666666,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3676",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/live.py",
+        "rich/progress.py",
+        "rich/_inspect.py",
+        "rich/console.py",
+        "rich/traceback.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.2,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3518",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/__main__.py",
+        "rich/console.py",
+        "rich/tree.py",
+        "rich/syntax.py",
+        "rich/table.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.2,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3535",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/highlighter.py",
+        "rich/traceback.py",
+        "rich/console.py",
+        "rich/logging.py",
+        "rich/cells.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.2,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3521",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "rich/__main__.py",
+        "examples/fullscreen.py",
+        "rich/segment.py",
+        "rich/_export_format.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.25,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3506",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "rich/segment.py",
+        "examples/fullscreen.py",
+        "rich/__main__.py",
+        "rich/_wrap.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.5,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3480",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "rich/__main__.py",
+        "examples/fullscreen.py",
+        "rich/_export_format.py",
+        "rich/filesize.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.04,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3472",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "rich/__main__.py",
+        "examples/fullscreen.py",
+        "rich/_export_format.py",
+        "rich/filesize.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.16666666666666666,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3454",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "rich/console.py",
+        "rich/__main__.py",
+        "rich/highlighter.py",
+        "rich/traceback.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.25,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3471",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "rich/__main__.py",
+        "rich/syntax.py",
+        "examples/fullscreen.py",
+        "rich/_export_format.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.0625,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3470",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "rich/__main__.py",
+        "examples/fullscreen.py",
+        "rich/_export_format.py",
+        "rich/console.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.2,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3469",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "rich/__main__.py",
+        "examples/fullscreen.py",
+        "rich/_export_format.py",
+        "rich/filesize.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.029411764705882353,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3052",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/prompt.py",
+        "rich/console.py",
+        "rich/text.py",
+        "rich/default_styles.py",
+        "rich/syntax.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3278",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/console.py",
+        "rich/control.py",
+        "rich/_win32_console.py",
+        "rich/syntax.py",
+        "rich/text.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.125,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_2943",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/console.py",
+        "rich/segment.py",
+        "rich/__main__.py",
+        "rich/text.py",
+        "benchmarks/snippets.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.14285714285714285,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_2725",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/box.py",
+        "rich/__main__.py",
+        "rich/table.py",
+        "examples/table_movie.py",
+        "examples/table.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.3333333333333333,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3105",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "rich/console.py",
+        "rich/syntax.py",
+        "rich/__main__.py",
+        "docs/source/conf.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.09090909090909091,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3130",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/markdown.py",
+        "rich/console.py",
+        "rich/__main__.py",
+        "rich/default_styles.py",
+        "rich/syntax.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3043",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/console.py",
+        "examples/export.py",
+        "docs/source/conf.py",
+        "rich/_export_format.py",
+        "rich/default_styles.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 1.0,
+      "rr": 0.25,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3067",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/console.py",
+        "docs/source/conf.py",
+        "rich/prompt.py",
+        "rich/syntax.py",
+        "rich/segment.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.03333333333333333,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3006",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/console.py",
+        "rich/segment.py",
+        "docs/source/conf.py",
+        "rich/progress.py",
+        "rich/pretty.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.038461538461538464,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3064",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/__main__.py",
+        "benchmarks/snippets.py",
+        "examples/fullscreen.py",
+        "rich/_export_format.py",
+        "rich/box.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.14285714285714285,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3063",
+      "repo": "Textualize/rich",
+      "top5": [
+        "benchmarks/snippets.py",
+        "rich/__main__.py",
+        "examples/fullscreen.py",
+        "rich/_export_format.py",
+        "rich/filesize.py"
+      ],
+      "graph": false,
+      "acc1": 0.0,
+      "acc5": 0.0,
+      "rr": 0.07692307692307693,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    },
+    {
+      "instance_id": "rich_3061",
+      "repo": "Textualize/rich",
+      "top5": [
+        "rich/text.py",
+        "rich/console.py",
+        "rich/highlighter.py",
+        "rich/syntax.py",
+        "benchmarks/snippets.py"
+      ],
+      "graph": false,
+      "acc1": 1.0,
+      "acc5": 1.0,
+      "rr": 1.0,
+      "triggered": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "seconds": 0.0
+    }
+  ]
+}

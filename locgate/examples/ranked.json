@@ -1,0 +1,7 @@
+{
+ "fastapi_15030": ["fastapi/routing.py", "fastapi/applications.py", "fastapi/sse.py"],
+ "fastapi_14962": ["fastapi/applications.py", "fastapi/routing.py", "fastapi/utils.py"],
+ "fastapi_15280": ["fastapi/applications.py", "fastapi/background.py"],
+ "requests_7505": ["src/requests/adapters.py", "src/requests/models.py", "src/requests/_types.py"],
+ "requests_7502": ["src/requests/models.py", "src/requests/utils.py"]
+}
