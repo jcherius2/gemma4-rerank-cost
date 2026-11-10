@@ -3,7 +3,7 @@
 Code, run records and scoring tool behind two writeups for the Kaggle competition
 [Google DeepMind - Gemma 4 Developer Agent](https://www.kaggle.com/competitions/gemma-4-developer-agent):
 
-- the paper "Is a small Gemma 4 worth its cost?": Gemma 4 e2b and e4b rerank the top 10 files of a
+- the paper "When is a small Gemma 4 worth calling?": Gemma 4 e2b and e4b rerank the top 10 files of a
   retrieval fusion (RRF) on the 129 public tasks, with gates that decide when the model is called;
 - the resource "locgate": score any file localizer on the same 129 tasks, accuracy and cost together.
 
